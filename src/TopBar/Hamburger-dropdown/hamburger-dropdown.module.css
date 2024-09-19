@@ -1,0 +1,58 @@
+.burgericon {
+    width: 100%;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lines {
+    width: 50px;
+    height: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: #373A40;
+    flex-direction: column;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav {
+    text-align: center;
+    height: auto;
+    align-items: center;
+}
+
+.select {
+    height: 40px;
+    border: 1px black solid;
+    text-decoration: none;
+    color: #EEEEEE;
+    align-content: center;
+}
+
+.select:hover {
+    background-color: #686D76;
+}
+
+@media screen and (min-width: 800px) {
+
+    .burgericon {
+        display: none;
+    }
+    
+    .select {
+        display: none;
+    }
+}

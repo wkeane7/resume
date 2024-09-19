@@ -1,0 +1,119 @@
+.background {
+    background-color: #EEEEEE;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 77vh;
+}
+
+.educationSection {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #373A40;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.institution {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: fit-content;
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 15px;
+    border: black solid 5px;
+    height: fit-content;
+    box-shadow: 8px 10px 4px 2px #373A40;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: auto;
+}
+
+.educationTitle {
+    font-size: 45px;
+    margin: 0%;
+}
+
+.educationSubtitle {
+    font-size: 35px;
+    margin: 0%;
+}
+
+.educationSubtitle2 {
+    font-size: 30px;
+    margin: 0%;
+}
+
+.educationDates {
+    font-size: 25px;
+    margin: 1%;
+}
+
+.educationDescription {
+    font-size: 20px;
+    width: 40vw;
+}
+
+.institutionLogo {
+    height: fit-content;
+    width: 25vw;
+    min-width: 300px;
+    display: flex;
+    margin-left: 0%;
+    padding-bottom: 5%;
+    align-self: center;
+}
+
+@media screen and (max-width: 1240px){
+    .institution {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educationDescription {
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .institution {
+        flex-wrap: nowrap;
+    }
+    
+    .educationTitle {
+        font-size: 55px;
+    }
+    
+    .educationSubtitle {
+        font-size: 45px;
+    }
+    
+    .educationSubtitle2 {
+        font-size: 40px;
+    }
+    
+    .educationDates {
+        font-size: 35px;
+    }
+    
+    .educationDescription {
+        font-size: 30px;
+    }
+}

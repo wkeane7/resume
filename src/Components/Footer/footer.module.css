@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DC5F00;
+    color: #EEEEEE;
+    font-size: 20px;
+    height: 5vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

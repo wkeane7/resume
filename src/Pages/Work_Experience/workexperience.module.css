@@ -1,0 +1,110 @@
+.background {
+    background-color: #EEEEEE;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 77vh;
+}
+
+.worklist {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 10%;
+    height: fit-content;
+    align-items: center;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #373A40;
+    justify-content: center;
+}
+
+.experience {
+    width: 328px;
+    background-color: white;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 8px 10px 4px 2px #373A40;
+    border: 5px solid ;
+    border-radius: 5%;
+}
+
+.category {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.companyName {
+    font-size: 30px;
+}
+
+.branchName {
+    font-size: 25px;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.jobDescription {
+    font-size: 20px;
+}
+
+.links {
+    font-size: 20px;
+    text-decoration: none;
+    color:darkblue;
+}
+
+.links:hover {
+    color: darkred;
+}
+
+@media screen and (max-width: 425px) {
+    .experience {
+        width: 90vw;
+    }
+
+    .worklist {
+        padding: 0%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .companyName {
+        font-size: 40px;
+    }
+    
+    .branchName {
+        font-size: 35px;
+    }
+
+    .jobDescription {
+        font-size: 30px;
+    }
+    
+    .links {
+        font-size: 30px;
+    }
+    
+    .experience {
+        width: 18vw;
+    }
+
+    .category {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,56 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-top: 2%;
+    padding-right: 10vw;
+    padding-bottom: 2%;
+    justify-content: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #373A40;
+    font-size: 30px;
+}
+
+.aboutMeTitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.firstParagraph {
+    display: flex;
+    align-items: center;
+}
+
+
+.picOfMe {
+    height: 350px;
+    width: auto;
+    margin-left: 10vw;
+}
+
+@media screen and (min-width: 2000px) {
+    .aboutMe {
+        font-size: 40px;
+    }    
+
+    .aboutMeTitle {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .firstParagraph {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aboutMe {
+        font-size: 20px;
+    }    
+
+    .aboutMeTitle {
+        font-size: 30px;
+    }
+}

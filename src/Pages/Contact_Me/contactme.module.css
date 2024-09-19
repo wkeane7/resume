@@ -1,0 +1,155 @@
+.mainbackground {
+    background-color: #EEEEEE;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 100%;
+    min-height: 77vh;
+    display: flex;
+    align-items: center;
+}
+
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 40%;
+    text-align: left;
+    padding-left: 10%;
+    align-items: center;
+
+}
+
+.texttitle {
+    font-size: 40px;
+    color: #373A40;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contactinfo {
+    color: #373A40;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.listtext {
+    color: #373A40;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list {
+    list-style: square;
+}
+
+#socialicon {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+span {
+    color: #373A40;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.socialname {
+    font-weight: bold;
+    
+}
+
+.media {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin: 10%;
+    justify-content: flex-start;
+}
+
+.othermedia {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10%;
+    width: 40%;
+}
+
+#socialmedia {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+#me {
+    height: 35vh;
+    width: fit-content;
+    justify-content: center;
+    border: 4px solid #373A40;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.subheader {
+    font-size: 25px;
+    color: #373A40;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+@media screen and (max-width: 800px){
+    .mainbackground {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .maincontent {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .othermedia {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    .texttitle {
+    font-size: 60px;
+   }
+
+   .subheader {
+    font-size: 55px;
+   }
+
+   .socialname {
+    font-size: 50px;
+   }
+   .socialcontent {
+    font-size: 50px;
+   }
+
+   .listtext {
+    font-size: 50px;
+   }
+
+   .contactinfo {
+    font-size: 50px;
+   }
+}

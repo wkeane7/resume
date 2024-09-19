@@ -1,0 +1,15 @@
+.loader {
+    background-color: #EEEEEE;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 77vh;
+}
+
+img {
+    height: 30vw;
+    width: 30vw;
+}
