@@ -31,7 +31,7 @@ export const employmentSkills = [
         id: "5",
         img: "./icons/python.png",
         skillName: "Python",
-        description: "Capable of using Python and Python based code for Data Analysis purposes using Numpty, Pandas, MatPlotLib and Seaborn."
+        description: "Capable of using Python and Python based code for Data Analysis purposes using Numpy, Pandas, MatPlotLib and Seaborn."
     },
 
     {
