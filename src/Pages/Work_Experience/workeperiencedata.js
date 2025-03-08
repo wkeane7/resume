@@ -10,7 +10,7 @@ export const workExperienceData = [
         website1: "https://shane.com.tw/",
         websiteName2: "Charlotte English Official Website",
         website2: "https://29863649.topschool.tw/Home/Main",
-        jobDescription: "Taught elementary school and kindergerten aged children conversational English in Taiwan.",
+        jobDescription: "Taught elementary school and kindergarten aged children conversational English in Taiwan.",
     },
 
     {
